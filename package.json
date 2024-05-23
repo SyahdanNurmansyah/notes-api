@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "notes": "nodemon ./src/server.js"
+    "notes:prod": "NODE.ENV=production node ./src/server.js",
+    "notes:dev": "nodemon ./src/server.js"
   },
   "author": "Syahdan Nurmansyah",
   "license": "ISC",
